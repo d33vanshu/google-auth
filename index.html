@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Google Auth System</h1>
+    <div id="forms">
+      <div id="register">
+        <h1>Register</h1>
+        <form onsubmit="Register(event)">
+          Name: <input type="text" id="inp1" /> Email:
+          <input type="text" id="inp2" /> Password:
+          <input type="text" id="inp3" /> Username:
+          <input type="text" id="inp4" /> Mobile:
+          <input type="text" id="inp5" /> Description:
+          <input type="text" id="inp6" />
+          <input type="submit" />
+          <input
+            type="button"
+            value="Sign in instead"
+            id="inp0"
+            onclick="SignIn()"
+          />
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+  <script src="login.js"></script>
+</html>
